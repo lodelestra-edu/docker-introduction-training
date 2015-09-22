@@ -54,18 +54,18 @@ In this part you will create a new nmap image but instead of manualy install nma
 
 @. Create a new directory docker\_nmap.
 @. In this directory create a new Dockerfile and edit it to get:
-    - ubuntu 14.04 as base image.
+    - Ubuntu 14.04 as base image.
     - Install nmap and vim in two separate instruction.
-    - define `nmap -help` has default command (CMD).
+    - Define `nmap -help` has default command (CMD).
 @. Build your image as \<yourname\>/nmap:1.2 . How many steps in this build execution?
 @. Test your new image without arguments, just run it. You must see the nmap help message.
     - Now run again a container from your nmap image but override the defaut command by "nmap iutweb.u-clermont1.fr".
     - Run again but override the default command by "ping iutweb.u-clermont1.fr -c 2".
 @. You have a nmap image but have to specify to use nmap and you can use every command instead. You will change that to use nmap every time.
     - Edit your Dockerfile to add nmap as 'ENTRYPOINT' and 'iutweb.u-clermont1.fr' as defaut command.
-    - build a new \<yourname\>/nmap:1.3 image. How many steps and time this build take? why ? 
+    - Build a new \<yourname\>/nmap:1.3 image. How many steps and time this build take? why ? 
     - Test it without arguments. Your container must, by default, scan iutweb.u-clermont1.fr for open ports.
-    - run a container from this 1.3 image to scan isima.fr .
+    - Run a container from this 1.3 image to scan isima.fr .
 
 ##C/ Application images
 In this part you must use a Dockerfile to create two applications image. You want to package a website into an image.
