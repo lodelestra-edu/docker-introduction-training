@@ -79,6 +79,6 @@ In this part you must use a Dockerfile to create two applications image. You wan
 @. You must create a container with the Spring framework website 'sagan'. The Spring website is a demonstration and open source site for the Spring framework. You can checkout the code from github: https://github.com/spring-io/sagan.git .
     - You can build a jar from the sagan project.
     - Your can use a java 8 official image from dockerHub.
-    - Use your imagination... (or the spring documentation for Docker)
+    - Use your imagination... (or Spring's documentation for Docker)
 
 
