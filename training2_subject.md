@@ -42,7 +42,7 @@ For this part you will add packages in a container and save it as a new image.
 @. Run a container from the official `ubuntu` image in interactive mode.
 @. Use apt-get to install nmap package into your container.
 @. When your new package are installed, check they are working (nmap iutweb.u-clermont1.fr).
-@. Exit your container and find it's ID with `docker ps -a`. Build a new image from your stopped container, name it <yourname>/nmap with the tag '1.0'.
+@. Exit your container and find it's ID with `docker ps -a`. Build a new image from your stopped container, name it \<yourname\>/nmap with the tag '1.0'.
     - What is the command used?
 @. List all your local docker images and check your new image are listed.
 @. Run a container from your image \<yourname\>/nmap:1.0 in interactive mode and install vim.   
