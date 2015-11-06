@@ -12,10 +12,11 @@ geometry: margin=2cm
 For the first part of this training classe you will manipulate and understand how Docker images and containers works.
 
 @. Use the `docker run` command to start a container from `hello-world` image.
-@. Has you can see the `hello-world` container display messages in your terminal.
+@. As you can see the `hello-world` container display messages in your terminal.
     - Start your container in background (in detache mode).
     - Use a log command to display messages from your previous container.
-@. Display local images.
+@. Display local images.   
+    - Use a command to list every local docker images. 
 @. Use the run command to start a container from `debian` image. Use options to get an interactive shell and explore the container.
     - Display container's processus (into the container). Look at the PID.
     - From a terminal in your host machine, use 'docker ps' command to list running containers.
