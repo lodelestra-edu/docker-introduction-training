@@ -7,7 +7,7 @@ For the first part of this training classe you will manipulate and understand ho
     - Use a log command to display messages from your previous container.
 3. Display local images.   
     - Use a command to list every local docker images. 
-4. Use the run command to start a container from `debian` image. Use options to get an interactive shell and explore the container.
+4. Use the run command to start a container from `debian:8` image. Use options to get an interactive shell and explore the container.
     - Display container's processus (into the container). Look at the PID.
     - From a terminal in your host machine, use 'docker ps' command to list running containers.
     - Come back in your container shell and exit it. You must 'Be back!' in your host terminal, now list running containers and after that list all containers (even stopped ones).
