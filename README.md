@@ -47,7 +47,7 @@ In this part you will create a new nmap image but instead of manualy install nma
 2. In this directory create a new Dockerfile and edit it to get:
     - Ubuntu 14.04 as base image.
     - Install nmap and vim in two separate instruction.
-    - Define `nmap -help` has default command (CMD).
+    - Define `nmap -help` as default command (CMD).
 3. Build your image as \<yourname\>/nmap:1.2 . How many steps in this build execution?
 4. Test your new image without arguments, just run it. You must see the nmap help message.
     - Now run again a container from your nmap image but override the defaut command by "nmap iutweb.u-clermont1.fr".
