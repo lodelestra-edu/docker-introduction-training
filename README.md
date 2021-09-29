@@ -31,7 +31,7 @@ For this part you will add packages in a container and save it as a new image.
 
 1. Run a container from the official `ubuntu` image in interactive mode.
 2. Use apt-get to install nmap package into your container.
-3. When your new package are installed, check they are working (nmap iutweb.u-clermont1.fr).
+3. When your new package are installed, check they are working (nmap iut.uca.fr).
 4. Exit your container and find it's ID with `docker ps -a`. Build a new image from your stopped container, name it \<yourname\>/nmap with the tag '1.0'.
     - What is the command used?
 5. List all your local docker images and check your new image are listed.
