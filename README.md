@@ -12,7 +12,7 @@ For the first part of this training classe you will manipulate and understand ho
     - From a terminal in your host machine, use 'docker ps' command to list running containers.
     - Come back in your container shell and exit it. You must 'Be back!' in your host terminal, now list running containers and after that list all containers (even stopped ones).
     - As you can see docker keep all stopped containers. **Remove** all of it!
-5. Use the run command to start a container from `ubuntu` image with no interactive shell but a ping on '127.0.0.1'.
+5. Use the run command to start a container from `ubuntu:14.04` image with no interactive shell but a ping on '127.0.0.1'.
 6. Run a container from the same image but in background this time.
     - Use `docker ps` and `docker logs` to check container and ping are running.
     - Then execute another command to open an interactive shell into this running container.
@@ -31,7 +31,7 @@ For this part you will add packages in a container and save it as a new image.
 
 1. Run a container from the official `ubuntu` image in interactive mode.
 2. Use apt-get to install nmap package into your container.
-3. When your new package are installed, check they are working (nmap iutweb.u-clermont1.fr).
+3. When your new package are installed, check they are working (nmap iut.uca.fr).
 4. Exit your container and find it's ID with `docker ps -a`. Build a new image from your stopped container, name it \<yourname\>/nmap with the tag '1.0'.
     - What is the command used?
 5. List all your local docker images and check your new image are listed.
