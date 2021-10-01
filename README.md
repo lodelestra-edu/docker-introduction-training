@@ -37,7 +37,7 @@ For this part you will add packages in a container and save it as a new image.
 5. List all your local docker images and check your new image are listed.
 6. Run a container from your image \<yourname\>/nmap:1.0 in interactive mode and install vim.   
 7. Exit this container and create a new image \<yourname\>/nmap:1.1 from this.
-8. Use your new nmap image to scan the server iutweb.u-clermont1.fr .
+8. Use your new nmap image to scan the server iut.uca.fr .
     - How many open port do you find?
 
 ## C/ Docker Buildfile
